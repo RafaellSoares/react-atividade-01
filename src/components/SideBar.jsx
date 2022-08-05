@@ -1,16 +1,15 @@
 import React from 'react';
-import './Style.css';
 
 export default function SideBar() {
   return (
     <div>
-      <div class="sidebar">
-        <div class="logo">
+      <div className="sidebar">
+        <div className="logo">
           <a href="/">
-            <img src="img/logo.png" alt="logo" />
+            <img src="/logo.png" alt="logo" />
           </a>
         </div>
-        <div class="navigation">
+        <div className="navigation">
           <ul>
             <li>
               <a href="#">Main page</a>
